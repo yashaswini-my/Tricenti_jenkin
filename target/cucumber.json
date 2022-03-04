@@ -1,0 +1,123 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4052304900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test_steps.Open_Browser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Search for product by clicking on product and add the first item to the cart",
+        "description": "",
+        "id": "login-action;search-for-product-by-clicking-on-product-and-add-the-first-item-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6160744900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "test_steps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 546658000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "test_steps.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7675614600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enters Valid UserName and Password",
+            "match": {
+              "location": "test_steps.user_enters_Valid_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3297794100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User hovers on Computer category and clicks on Desktop",
+            "match": {
+              "location": "test_steps.user_hovers_on_Computer_category_and_clicks_on_Desktop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116802800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicks on Add to Cart for the first desktop",
+            "match": {
+              "location": "test_steps.user_clicks_on_Add_to_Cart_for_the_first_desktop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 328687800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user should be able to add the same item into cart and get confirmation message",
+            "match": {
+              "location": "test_steps.user_should_be_able_to_add_the_same_item_into_cart_and_get_confirmation_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@hover1"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "feature/Tricenties.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
